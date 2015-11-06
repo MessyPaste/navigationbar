@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="常见标题栏一:左,中,右 都是文字的情况:"/>
+            <FrameLayout
+                android:layout_marginTop="@dimen/normal_divider"
+                android:id="@+id/navi_container_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navi_bar_height"></FrameLayout>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="常见标题栏二:左右是图片,中间是文字的情况:"/>
+
+            <FrameLayout
+                android:layout_marginTop="@dimen/normal_divider"
+                android:id="@+id/navi_container_2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navi_bar_height"></FrameLayout>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="常见标题栏三:左边无内容,右文字,中间是文字的情况:"/>
+
+            <FrameLayout
+                android:layout_marginTop="@dimen/normal_divider"
+                android:id="@+id/navi_container_3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navi_bar_height"></FrameLayout>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="常见标题栏四:左边为图标,右边为图标,中间为自定义view的情况:"/>
+
+            <FrameLayout
+                android:layout_marginTop="@dimen/normal_divider"
+                android:id="@+id/navi_container_4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navi_bar_height"></FrameLayout>
+
+            <FrameLayout
+                android:layout_marginTop="@dimen/normal_divider"
+                android:id="@+id/navi_container_5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/navi_bar_height"></FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
