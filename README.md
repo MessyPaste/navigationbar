@@ -10,6 +10,8 @@
 
 #2、构建布局：
 （1）构建导航条View：
+
+示例：
 NaviBarBuilder naviBarBuilder1 = new NaviBarBuilder(context);
 naviBarBuilder1.buildLeftView().buildSideText("左文字").buildCenterView().buildTitleText("标题文字测试").buildRightView().buildSideText("右文字");//按照buildXXXView().buildXXX()的形式构建
 
