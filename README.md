@@ -10,7 +10,12 @@
 
 #2、构建布局：
 （1）构建导航条View：
-目前默认有三种风格
+目前默认有三种风格,文字、图片和自定义，首先调用buildXXXView()方法，XXX可以是left、center或right，然后再调用特定视图的方法:
+buildSideText();侧边文字
+buildTitleText();标题文字
+buildSideImg();侧边图片
+buildCustomView();自定义布局
+具体示例如下所示：
 ![image](https://raw.githubusercontent.com/LiuTaw/navigationbar/master/navi_sreenshot.jpg)
 
 示例：
