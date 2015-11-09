@@ -10,6 +10,8 @@
 
 #2、构建布局：
 （1）构建导航条View：
+目前默认有三种风格
+![image](https://raw.githubusercontent.com/LiuTaw/navigationbar/master/navi_sreenshot.jpg)
 
 示例：
 NaviBarBuilder naviBarBuilder1 = new NaviBarBuilder(context);
