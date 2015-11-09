@@ -38,4 +38,6 @@ navi_bar_height数值一般是50dp<br>
 
 #4、将导航条布局加入到容器中：
 找到布局容器FrameLayout（如framelayout_fragment1）并调用addView方法将导航条view加入到容器中。<br>
-framelayout_fragment1.addView();<br>
+需要调用NaviBarBuilder类的build()方法得到之前构建的view;<br>
+framelayout_fragment1.addView(naviBarBuilder1.build());<br>
+
