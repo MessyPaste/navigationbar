@@ -29,8 +29,7 @@ naviBarBuilder1.buildLeftView().buildSideText("左文字").buildCenterView().bui
 
 #3、添加导航条布局容器：
 一般将以下代码放入至需要假如导航条的layout文件中，注意一般不要放入srollview中<br>
-<FrameLayout<br>
-        android:id="@+id/framelayout_fragment1"<br>
+<FrameLayout android:id="@+id/framelayout_fragment1"<br>
         android:layout_width="match_parent"<br>
         android:layout_height="@dimen/navi_bar_height"></FrameLayout><br>
 
